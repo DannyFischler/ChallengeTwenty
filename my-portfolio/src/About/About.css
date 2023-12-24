@@ -1,0 +1,14 @@
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#about p {
+    margin-top: 20px;
+}

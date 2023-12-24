@@ -1,0 +1,26 @@
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+nav li.active {
+    font-weight: bold;
+    color: blue;
+}
