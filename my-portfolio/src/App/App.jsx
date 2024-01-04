@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Header from './Header/Header';
-import About from './About/About';
-import Portfolio from './Portfolio/Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
-import Footer from './Footer';
-// import './App.css';
+import Header from '../Header/Header';
+import About from '../About/About';
+import Portfolio from '../Portfolio/Portfolio';
+import Contact from '../Contact/Contact';
+import Resume from '../Resume/Resume';
+import Footer from '../Footer/Footer';
+import './App.css';
 
 function App() {
   const [activeSection, setActiveSection] = useState('about');

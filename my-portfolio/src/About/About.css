@@ -1,14 +1,73 @@
 #about {
-    padding: 20px;
+    padding: 60px 20px;
     text-align: center;
+    background-color: #f7f7f7;
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 #about img {
     max-width: 200px;
     height: auto;
     border-radius: 50%;
+    border: 5px solid #007bff;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+    transition: transform 0.4s ease-in-out;
+}
+
+#about img:hover {
+    transform: scale(1.15);
+    filter: brightness(1.2);
 }
 
 #about p {
-    margin-top: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+#about p::before,
+#about p::after {
+    content: "\201C"; /* Left double quotation mark */
+    font-size: 28px;
+    color: #007bff;
+}
+
+#about p::after {
+    content: "\201D"; /* Right double quotation mark */
+}
+
+#about a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+}
+
+#about a:hover {
+    color: #0056b3;
+}
+
+#about .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+
+#about .btn:hover {
+    background-color: #0056b3;
 }

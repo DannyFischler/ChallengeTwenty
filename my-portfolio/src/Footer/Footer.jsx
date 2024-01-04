@@ -1,11 +1,11 @@
 import React from 'react';
-// import './Footer.css'; 
+import './Footer.css'; 
 
 const Footer = () => {
   return (
     <footer>
       <div>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/DannyFischler" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
       </div>
